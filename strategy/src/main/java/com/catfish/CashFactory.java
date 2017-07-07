@@ -6,11 +6,14 @@ package com.catfish;
 public class CashFactory {
 
 
-    public static CashSuper createCashAccept(String type) {
+    public static CashSuper createCashAccept(CashType type) {
         switch (type) {
-            case "正常收费":
+            case Normal:
                 return new CashNormal();
-            break;
+
+            default:
+
+                break;
 
         }
         return null;
