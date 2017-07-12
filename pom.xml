@@ -13,6 +13,7 @@
         <module>Decorator</module>
         <module>proxy</module>
         <module>AbstractFactory</module>
+        <module>memo</module>
     </modules>
     <dependencies>
         <dependency>
